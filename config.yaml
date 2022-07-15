@@ -1,0 +1,25 @@
+api_key: <api key>
+url: https://api.ukrainealarm.com/api/v3
+
+time_delay: 60
+use_time_delay_delta: False
+
+recovery_timeout: 60
+log: log.txt
+log_level: INFO
+log_size_bytes: 5000000
+log_backup_count: 5
+region_id: 14
+store_name: ""
+
+start_alerting: 5:00:00
+finish_alerting: 23:00:00
+
+local_cert_name: cert.pem
+use_local: True
+
+start_alert_filename: "female_air_on.wav"
+finish_alert_filename: "female_air_off.wav"
+
+voice_service_name: "VLC"
+stop_voice_service_mode: False
